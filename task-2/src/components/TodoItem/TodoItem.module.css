@@ -1,0 +1,11 @@
+@counter-style doneSymbol
+{
+    system: fixed;
+    symbols: ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅;
+    suffix: " ";
+}
+.item
+{
+    font-size: 18px;
+    list-style-type: doneSymbol;
+}
