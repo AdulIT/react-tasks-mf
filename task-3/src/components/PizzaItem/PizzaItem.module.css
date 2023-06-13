@@ -1,0 +1,13 @@
+.pizza
+{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.name
+{
+    color: #436ab6;
+    font-size: 24px;
+    line-height: 48px;
+}

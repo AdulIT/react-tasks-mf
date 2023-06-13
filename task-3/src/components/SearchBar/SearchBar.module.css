@@ -1,0 +1,26 @@
+.search
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input, .searchBtn
+{
+    margin: 20px 0;
+    padding: 5px;
+    display: block;
+    outline: none;
+    border: 1px solid #436ab6;
+}
+.searchBtn
+{
+    margin: 0;
+    background-color: #436ab6;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1);
+}
+.searchBtn:focus
+{
+    background-color: #445373;
+}
